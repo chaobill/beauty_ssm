@@ -110,8 +110,8 @@ hs_err_pid*
 /logs/
 /RUNNING_PID
 .DS_Store
-/target/
+**/target/
 
 #ignore config file
-jdbc.properties
-redis.properties
+**/jdbc.properties
+**/redis.properties
